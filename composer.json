@@ -1,17 +1,17 @@
-{
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+ {
+    "name": "bappy3a/laravel-package",
+    "description": "This is example package",
     "keywords": [
-        ":vendor_name",
+        "bappy",
         "laravel",
-        ":package_slug"
+        "laravel-package"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/bappy3a/laravel-package",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Ahmed Bappy",
+            "email": "bappy3a@gmail.com",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "Bappy3a\\Example\\": "src/",
+            "Bappy3a\\Example\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/",
+            "Bappy3a\\Example\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -63,10 +63,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Bappy3a\\Example\\ExampleServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "Example": "Bappy3a\\Example\\Facades\\Example"
             }
         }
     },
