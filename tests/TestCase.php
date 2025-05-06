@@ -2,9 +2,9 @@
 
 namespace Bappy3a\Example\Tests;
 
+use Bappy3a\Example\ExampleServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Bappy3a\Example\ExampleServiceProvider;
 
 class TestCase extends Orchestra
 {
