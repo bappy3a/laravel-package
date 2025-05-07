@@ -2,18 +2,19 @@
 
 namespace Bappy3a\Example\Database\Factories;
 
+use Bappy3a\Example\Models\MyModels;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
-/*
-class ModelFactory extends Factory
+
+class MyModelsFactory extends Factory
 {
-    protected $model = YourModel::class;
+    protected $model = MyModels::class;
 
     public function definition()
     {
         return [
-
+            'name' => $this->faker->name,
         ];
     }
 }
-*/
+
